@@ -9,5 +9,5 @@
 
 ## PostMan Collection to test
 
-- (https://laravel.com/docs/routing](https://github.com/Anujit-Datta/BrainBattleHackathon/blob/master/Test.postman_collection.json).
+- (https://github.com/Anujit-Datta/BrainBattleHackathon/blob/master/Test.postman_collection.json).
 
