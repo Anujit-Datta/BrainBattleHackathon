@@ -1,0 +1,452 @@
+{
+	"info": {
+		"_postman_id": "72bfddac-c779-4065-be81-d879846e6814",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40182220"
+	},
+	"item": [
+		{
+			"name": "ten",
+			"item": [
+				{
+					"name": "ten",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"John Doe two\",\r\n    \"student_id\": 220346,\r\n    \"department\": \"CSE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://test_p.test/api/students",
+							"protocol": "http",
+							"host": [
+								"test_p",
+								"test"
+							],
+							"path": [
+								"api",
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ten",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://test_p.test/api/students/2",
+							"protocol": "http",
+							"host": [
+								"test_p",
+								"test"
+							],
+							"path": [
+								"api",
+								"students",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ten",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"John Doe 2\",\r\n    \"student_id\": 220346,\r\n    \"department\": \"CSE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://test_p.test/api/students/5",
+							"protocol": "http",
+							"host": [
+								"test_p",
+								"test"
+							],
+							"path": [
+								"api",
+								"students",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ten",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://test_p.test/api/students/2",
+							"protocol": "http",
+							"host": [
+								"test_p",
+								"test"
+							],
+							"path": [
+								"api",
+								"students",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "one",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://test_p.test/api/health",
+					"protocol": "http",
+					"host": [
+						"test_p",
+						"test"
+					],
+					"path": [
+						"api",
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "two",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://test_p.test/api/exam-room/250000",
+					"protocol": "http",
+					"host": [
+						"test_p",
+						"test"
+					],
+					"path": [
+						"api",
+						"exam-room",
+						"250000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "three",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"student_id\": \"220345\",\r\n    \"timestamp\": \"2025-02-19T10:31:00Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://test_p.test/api/wifi-login",
+					"protocol": "http",
+					"host": [
+						"test_p",
+						"test"
+					],
+					"path": [
+						"api",
+						"wifi-login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "four",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://test_p.test/api/library/book/9781234567897",
+					"protocol": "http",
+					"host": [
+						"test_p",
+						"test"
+					],
+					"path": [
+						"api",
+						"library",
+						"book",
+						"9781234567897"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "five",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"student_id\": 220345,\r\n  \"items\": [\r\n    {\r\n      \"item_id\": \"burger\",\r\n      \"quantity\": 2,\r\n      \"price\": 100\r\n    },\r\n    {\r\n      \"item_id\": \"fries\",\r\n      \"quantity\": 1,\r\n      \"price\": 135\r\n    }\r\n  ],\r\n  \"order_time\": \"2025-02-11T12:00:00Z\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://test_p.test/api/canteen/order",
+					"protocol": "http",
+					"host": [
+						"test_p",
+						"test"
+					],
+					"path": [
+						"api",
+						"canteen",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seven",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"Fire\",\r\n  \"location\": \"Building A, Room 101\",\r\n  \"details\": \"Student got senseless in examination hall as soon as looking over question or may be low blood suger.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://test_p.test/api/emergency",
+					"protocol": "http",
+					"host": [
+						"test_p",
+						"test"
+					],
+					"path": [
+						"api",
+						"emergency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eight",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://test_p.test/api/notices",
+					"protocol": "http",
+					"host": [
+						"test_p",
+						"test"
+					],
+					"path": [
+						"api",
+						"notices"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
