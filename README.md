@@ -11,3 +11,12 @@
 
 - (https://github.com/Anujit-Datta/BrainBattleHackathon/blob/master/Test.postman_collection.json).
 
+- docker pull anujitdatta/hackathon-submission-anujit
+
+
+## Docker image
+- https://hub.docker.com/r/anujitdatta/hackathon-submission-anujit
+
+## docker pull anujitdatta/hackathon-submission-anujit
+- Use port 8080 to sync with the postman collection
+- If using any other port then please change the "baseUrl" variable in the collection 
